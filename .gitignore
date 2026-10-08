@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environment from conda
+flower_cal/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data and logs (if you don't want to upload large files)
+*.log
+*.zip
+*.tar.gz

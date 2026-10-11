@@ -34,7 +34,7 @@ def create_isaac_env2(initial_curriculum_scale=0.10, fix_box_pos=False, simulati
         except ImportError:
             pass
 
-    URDF_PATH = "/home/ikeuchi/flower/calvin_env/data/panda_hx5/panda_hx5_right.urdf"
+    URDF_PATH = os.path.join(SCRIPT_DIR, "panda_hx5_right.urdf")
     ARM_JOINT_NAMES = [
         "panda_joint1", "panda_joint2", "panda_joint3", "panda_joint4",
         "panda_joint5", "panda_joint6", "panda_joint7"
